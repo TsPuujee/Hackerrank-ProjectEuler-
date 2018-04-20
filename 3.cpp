@@ -4,7 +4,7 @@ int main()
 {
     long long t,n, lar=2, fact=2,sqroot,flag;
     cin >> t;
-    for(long int i=0;i<t;i++){
+    for(int i=0;i<t;i++){
         cin >> n;
         lar=2, fact=2;
         sqroot = sqrt(n);
