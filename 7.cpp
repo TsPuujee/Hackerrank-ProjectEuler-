@@ -12,7 +12,8 @@ int main()
         if(as) se.push_back(i);
     }
     for(int i=0;i<t;i++){
-        int tem; cin>>tem;
+        int tem; 
+        cin>>tem;
         cout<<se[tem-1]<<endl;
     }
     return 0;
